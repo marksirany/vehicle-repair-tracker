@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Auth Form</title>
+  </head>
+  <body>
+    <div class="clearfix">
+      <div class="card">
+        <h2>Sign Up</h2>
+        <form method="POST">
+          <div class="input-group">
+            <label for="vehicle">Vehicle</label>
+            <input type="text" name="vehicle" id="vehicle" placeholder="Rav4" />
+          </div>
+          <div class="input-group">
+            <label for="date">Date</label>
+            <input type="text" name="date" id="date" placeholder="02/02/2020" />
+          </div>
+          <div id="save"></div>
+          <button id="save">Save</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <h2>Repair History</h2>
+        <p><strong>Vehicle</strong> <span id="vehicle"></span></p>
+        <p><strong>Date</strong> <span id="date"></span></p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
