@@ -1,24 +1,15 @@
 {
-  "name": "vehicle-repair-tracker",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "keep track of all your vehicle repairs",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marksirany/vehicle-repair-tracker.git"
-  },
-  "keywords": [
-    "vehicle",
-    "repairs",
-    "tracker"
-  ],
-  "author": "Mark T. Sirany",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/marksirany/vehicle-repair-tracker/issues"
-  },
-  "homepage": "https://github.com/marksirany/vehicle-repair-tracker#readme"
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.16.0"
+  }
 }
