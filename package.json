@@ -1,19 +1,24 @@
 {
-  "name": "vanilla",
+  "name": "vehicle-repair-tracker",
   "version": "1.0.0",
-  "description": "JavaScript example starter project",
-  "main": "index.html",
+  "description": "keep track of all your vehicle repairs",
+  "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksirany/vehicle-repair-tracker.git"
   },
   "keywords": [
-    "javascript",
-    "starter"
-  ]
+    "vehicle",
+    "repairs",
+    "tracker"
+  ],
+  "author": "Mark T. Sirany",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marksirany/vehicle-repair-tracker/issues"
+  },
+  "homepage": "https://github.com/marksirany/vehicle-repair-tracker#readme"
 }
