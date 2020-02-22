@@ -13,13 +13,13 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-dark bg-dark">
+  <nav class="navbar navbar-dark bg-primary">
     <a class="navbar-brand" href="/">Vehicle Repair Tracker
     </a>
     
     <div class="icons">
-      <i class="fas fa-save text-light save-note"></i>
-      <i class="fas fa-pen text-light new-note"></i>
+      <i class="fas fa-save text-light save-note"> SaveRepair</i>
+      <i class="fas fa-pen text-light new-note"> NewRepair</i>
     </div>
   </nav>
   <div class="container-fluid">
@@ -31,13 +31,16 @@
         </div>
       </div>
       <div class="col-8">
-        <input class="note-title" placeholder="Vehicle" maxlength="28" type="text">
+        <input class="note-title" placeholder="Enter Vehicle" maxlength="28" type="text">
         <input class="note-date" placeholder="Repair" maxlength="28" type="text">
         <input class="note-date" placeholder="Repair Date" maxlength="28" type="text">
         <textarea class="note-textarea" placeholder="Describe Repair"></textarea>
+        
       </div>
     </div>
+    
   </div>
+ 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="assets/js/index.js"></script>
 </body>

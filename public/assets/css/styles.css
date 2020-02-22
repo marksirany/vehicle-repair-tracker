@@ -7,11 +7,12 @@ html, body {
   
 }
 
-
-
-.save-note {
-  display: none;
+.nav {
+  color: #002d62 !important;
 }
+
+
+
 
 .icons i {
   margin-left: 15px;
